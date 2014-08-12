@@ -2,3 +2,5 @@ Temp/
 Library/
 Standard Assets/
 .DS_Store
+.csproj
+.sln
