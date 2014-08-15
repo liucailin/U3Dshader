@@ -47,12 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\Shaders\TransparencyCutOff.shader" />
      <None Include="Assets\Shaders\CustomDiffuse.shader" />
+     <None Include="Assets\Shaders\Transparency.shader" />
      <None Include="Assets\Shaders\Cubemap.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Shaders\Diffuse.shader" />
      <None Include="Assets\Shaders\CustomHalfLifeDiffuse.shader" />
      <None Include="Assets\Shaders\Specular.shader" />
+     <None Include="Assets\Shaders\Depth.shader" />
      <None Include="Assets\Shaders\CustomRampDiffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

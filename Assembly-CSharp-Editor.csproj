@@ -47,12 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CreateStaticCubemap.cs" />
+     <None Include="Assets\Shaders\TransparencyCutOff.shader" />
      <None Include="Assets\Shaders\CustomDiffuse.shader" />
+     <None Include="Assets\Shaders\Transparency.shader" />
      <None Include="Assets\Shaders\Cubemap.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Shaders\Diffuse.shader" />
      <None Include="Assets\Shaders\CustomHalfLifeDiffuse.shader" />
      <None Include="Assets\Shaders\Specular.shader" />
+     <None Include="Assets\Shaders\Depth.shader" />
      <None Include="Assets\Shaders\CustomRampDiffuse.shader" />
  <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
  <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
@@ -70,6 +73,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{65173ED4-1F57-53D5-13BA-7879068E8BE4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{3443BF3C-EAD6-E465-BADD-506AA56CA658}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
